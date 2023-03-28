@@ -6,7 +6,7 @@ createApp({
         return {
             titolo: 'Hello Vue!',
             color: 'text-white',
-            image: '../img/web-developer-image.jpg',
+            image: './img/web-developer-image.jpg',
         }
     },
 }).mount('#app');  
