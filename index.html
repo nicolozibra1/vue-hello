@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Vue Hello</title>
 </head>
-<body>
+<body class="bg-black">
+    <div class="container py-5">
+        <div id="app">
+            <h1 :class="color">{{titolo}}</h1>
+            <div>
+                <img :src="image" class="m-auto" alt="developer">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./js/utility.js"></script>
     <script src="./js/script.js"></script>
 </body>
